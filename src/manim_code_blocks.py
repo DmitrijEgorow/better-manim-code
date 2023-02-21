@@ -33,18 +33,18 @@ class Theme:
 
 OneDark = Theme(
     colors = {
-        "#C678DD": ["keyword"], # Purple
-        "#61AFEF": ["function"], # Blue
-        "#E06C75": ["identifier"], # Red
-        "#98C379": ["string"], # Green
-        "#56B6C2": ["symbol"], # Cyan
-        "#D19A66": ["number", "keyword literal"], # Orange
-        "#E5C07B": ["class name"], # Yellow
+        "#CC7832": ["keyword"], # Orange
+        "#FFC66D": ["function"], # Yellow
+        "#A8B7C5": ["identifier"], # White
+        "#6A865A": ["string"], # Green
+        "#A8B7C5": ["symbol"], # White
+        "#6896BB": ["number", "keyword literal"], # Cyan
+        "#A8B7C5": ["class name"], # Yellow
         GRAY_C: ["comment"] # Gray
     },
 
     group_matchers = [
-        "#D19A66", # Orange
+        "#CC7832", # Orange
         "#C678DD", # Purple
         "#56B6C2" # Cyan
     ]
